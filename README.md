@@ -1,5 +1,5 @@
-Migrate teams from the old code format to the new one
+Resolve duplicate (by code) teams
 
-Run this directly againse mongo using:
+Run this directly against MongoDB using:
 
 `mongo fh-aaa --eval "var domain='<DOMAIN>'; var dryrun=<true|false>" migrate.js`
